@@ -2,16 +2,111 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(26, 98, 200);
 }
 
 .page_header {
     position: relative;
-    top: -10vw;
     width: 100%;
+    min-height: 10vw;
+    max-height: 30vw;
 }
 
 .page_header img {
+    position: fixed;
     width: 100%;
-    height: auto;
-    box-shadow: 0px 5px 10px black;
+
+}
+
+main {
+    position: relative;
+    margin: 0 auto;
+    min-width: 70%;
+    max-width: 76%;
+    background-color: white;
+    box-shadow: 0 0 20px 5px black;
+}
+
+main .main_header {
+    text-align: center;
+    padding: 5% 0 2% 0;
+}
+
+main .main_header h1 {
+    margin: 0;
+    font-size: 3.6vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+main .main_header p {
+    margin: 1% 4%;
+    font-size: 2vw;
+}
+
+main article.tips {
+    background-color: rgb(135, 175, 254);
+    width: 100%;
+    margin: 0;
+}
+
+main article.tips h2 {
+    padding: 1%;
+    margin: 0;
+    text-align: center;
+    width: 98%;
+    background-color: rgb(36, 94, 174);
+}
+
+main article.tips p {
+    padding: 2% 0;
+    margin: 0 10%;
+    font-size: 16pt;
+    text-align: center;
+}
+
+main article.tips section {
+    position: relative;
+    width: 50%;
+    min-height: 400px;
+    height: 4vw;
+    float: left;
+    overflow: auto;
+}
+
+main article.tips section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+main article.tips section ul li {
+    margin: 20px 15px;
+}
+
+main article.tips section ul li p {
+    font-size: 12pt;
+    text-align: justify;
+    margin: 0;
+}
+
+main article.tips section h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+main article.tips section.todo h3 {
+    background-color: rgb(22, 154, 22);
+}
+
+main article.tips section.todo {
+    background-color: rgb(73, 172, 73);
+}
+
+main article.tips section.not_todo h3 {
+    background-color: rgb(228, 60, 60);
+}
+
+main article.tips section.not_todo {
+    background-color: rgb(216, 116, 116);
 }
