@@ -1,2 +1,7 @@
 this webpage was created for a school work
-http://GitJB1.github.io/canarinhotravel.
+EEB Dr Tufi Dippe
+1°04 Teacher: Eliana
+Adney
+Évelyn
+Jonas
+Matheus
