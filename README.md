@@ -1,7 +1,8 @@
 <p>This Webpage was created for a school project</p>
-<p>EEB Dr Tufi Dippe</p>
-<p>1°04 Teacher: Eliana</p>
+<p>School: EEB Dr Tufi Dippe</p>
+<p>Class: 1°04</p> 
+<p>Teacher: Eliana</p>
 <p>Adney</p>
 <p>Évelyn</p>
-<p>Jonas</p>
+<p>Jonas(me)</p>
 <p>Matheus</p>
